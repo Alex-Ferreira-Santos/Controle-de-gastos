@@ -23,4 +23,19 @@ const header = StyleSheet.create({
     }
 })
 
-export {header}
+const form = StyleSheet.create({
+    container:{
+        margin:20,
+    },
+    texts:{
+        color: "#0091ea",
+        fontSize: 16,
+    },
+    inputs: {
+        borderBottomWidth: 1,
+        borderBottomColor: "#0091ea",
+        marginBottom:20,
+    }
+})
+
+export {header, form}
